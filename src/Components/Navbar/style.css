@@ -1,0 +1,184 @@
+.nav{
+   
+    height: 5rem;
+    display: inline-block;
+    width:100%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: sticky;
+    top:0;
+
+}
+
+
+.logo{
+    
+    font-size: 2.2rem;
+    float:left;
+    line-height: 5rem;
+    padding: 0 1em;
+    font-weight: bold;
+    color: white;
+}
+
+.nav #searchbar{
+    display:inline-block;
+    width:20%;
+    margin: 1em 0 1em 2em ;
+    font-size: 1.5rem;
+    
+}
+
+#searchicon{
+    background-color: aliceblue;
+    font-size: 1.4em;
+    margin: 1em 0 1em 0 ;
+    border-radius: 5px;
+    
+}
+
+.nav ul{
+    float :right;   
+}
+
+.nav ul li{
+    display:inline-block;
+    margin-right: 4rem;  
+    margin-top: .8em; 
+}
+
+.nav ul li:hover{
+    background-color: rgb(37, 111, 146);
+    outline: 3px solid white;
+}
+.nav ul li:active{
+    background-color: rgb(37, 111, 146);
+    outline: 3px solid white;
+}
+
+
+.nav ul li #link{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    padding:5px 3px;
+    text-align: center;
+    font-weight:500;
+}
+
+
+.nav #check{
+    display: none;
+}
+#menuicon{
+    color:aliceblue;
+    float:right;
+    margin:1.5rem 2rem;
+    font-size: 2rem;
+    display:none;
+
+}
+
+
+@media ( max-width:1250px) {
+    html{
+        
+        font-size: 65%;
+    }
+    
+}
+
+@media(max-width:850px){
+  
+.nav ul{
+    
+    position: fixed;
+    top:0rem;
+    
+    height: 300%;
+    width:20%;
+    display:inline-block;
+    float:right;
+    
+    background-color:  rgb(22, 48, 241);
+    margin:5rem 0 0 0;
+    padding:2rem 2em;
+    
+   
+    }
+
+    .nav ul li{
+        display:block;
+        width: fit-content;
+        margin-bottom: 2rem;
+       
+    }
+    .nav ul li #link{
+        font-weight:bold;
+    }
+
+    #menuicon{
+        color:aliceblue;
+        float:right;
+        margin:1.5rem 2rem;
+        font-size: 2rem;
+        display:inline-block;
+    
+    } 
+    .nav #check{
+      display: none;
+    }
+
+ #check:checked ~ul{
+display:none;
+
+} 
+
+
+}
+
+
+
+/*
+.nav #searchbar{
+    margin-top: 25px;
+    font-size: larger;
+    width: fit-content;
+    height: 30px;
+    
+    
+}
+
+.nav ul{
+    float: right;
+    margin-right: 20px;
+    
+
+}
+
+.nav ul li{
+    color: brown;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-size: 17px;
+   
+    
+}
+.nav ul li #link{
+   font-size: 17px;
+   text-decoration-line: none;
+   text-transform: uppercase;
+   padding: 7px 13px;
+   border-radius: 3px;
+   color: black;
+}
+
+#link:hover,#link:active{
+background-color: blueviolet;
+transition: .5s;
+color:yellow
+} */
+
+
+

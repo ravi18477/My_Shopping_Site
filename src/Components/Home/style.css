@@ -1,0 +1,44 @@
+.itemrow{
+
+    
+    height: 25% ;
+    padding:1.25em .5em;
+    margin: 1em ;
+    border: 2px solid;
+    display:flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+
+    
+    
+}
+
+.item{
+
+    outline: 2px solid;
+    margin-right: 1.5em;
+    float: left;
+   
+    display: inline-block;
+    
+    
+}
+
+#itemimage{
+   
+    width:10rem;
+    height: 8rem;
+}
+#addcartbutton{
+    background-color: green;
+    color: white;
+    float:right;
+    cursor: pointer;
+}
+
+#addcartbutton:hover{
+    background-color: rgb(1, 83, 1);
+    outline: 1px solid;
+
+}
